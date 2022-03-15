@@ -1,0 +1,135 @@
+/* FORMATAÇÃO */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding:  0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+body {
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+    background-color: #e6e6e6;
+}
+
+/* LAYOUT */
+
+#area-cabecalho {
+    background-color: #f44336;
+    padding: 15px;
+    text-align: center;
+}
+
+#area-logo, #area-menu {
+    padding: 10px;
+}
+
+#area-principal {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+/* #area-postagens, #area-lateral {
+    background-color: orange;
+} */
+
+#area-postagens {
+    width: 660px;
+    float: left;
+}
+
+.postagem {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #FFF;
+}
+
+.conteudo-lateral {
+    background: #FFF;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#area-lateral {
+    width: 240px;
+    float: right;
+}
+
+#rodape {
+    background-color: #CCC;
+    clear: both;
+    text-align: center;
+    padding: 15px;
+}
+
+.postagem-lateral {
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #CCC;
+}
+
+/* FORMATAÇÂO MENU */
+
+a {
+    text-decoration: none;
+    padding: 3px 4px;
+}
+
+a:link, a:visited {
+    color: #f44336;
+}
+
+a:hover {
+    color: #FFF;
+    background-color: #f44336;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#area-cabecalho a {
+    padding: 8px 12px;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited {
+    color: #FFF;
+}
+
+#area-cabecalho a:hover {
+    color: #f44336;
+    border-radius: 5px;
+    background-color: #FFF;
+}
+
+
+
+/* FORMATAÇÂO GERAL */
+
+h1 {
+    color: black;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #f44336;
+}
+
+h3 {
+    color: #565656;
+    background: #CCC;
+    padding: 5px;
+}
+
+.branco {
+    color: white;
+}
+
+.data-postagem {
+    display: block;
+    font-size: 0.8em;
+    border-bottom: 1px solid rgb(253, 170, 170);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
